@@ -1,1 +1,13 @@
-Shell scripts
+Shell scripts:
+
+1) Creating a backup shell script:
+we use cron job to run the script every minute for backup of the 
+
+2) Disk usage:
+- to define threshold
+- search the filesystems with mounts and pipe with while loop
+- create a usage variable and it should have value without %
+- create partition var and store the value of partition
+- if usage is greater than or equal to threshold then, print warning with usage and partition
+- close the if and while   
+
